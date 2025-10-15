@@ -118,6 +118,8 @@ The `llm_service.py` is central to this project. It crafts a detailed prompt for
 
 To get a nicely formatted JSON response in your terminal, pipe the `curl` output to `python -m json.tool`.
 
+Where the code is like curl "http://localhost:8000/recommendations/[user_id]?limit=" | python -m json.tool
+
 ```bash
 curl "http://localhost:8000/recommendations/69?limit=5" | python -m json.tool
 ```
