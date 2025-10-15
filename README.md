@@ -185,6 +185,3 @@ For production, it is recommended to use a robust database like PostgreSQL and a
 ## 🧾 License
 
 MIT License © 2025
-
-```
-```
