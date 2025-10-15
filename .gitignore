@@ -1,0 +1,23 @@
+# --- Virtual Environment ---
+# Never commit the virtual environment directory
+.venv/
+venv/
+env/
+
+# --- Environment Variables ---
+# Never commit your secret keys or local configuration
+.env
+
+# --- Databases ---
+# Ignore the local SQLite database file
+ecommerce.db
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Python Artifacts ---
+# Ignore Python cache files and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
